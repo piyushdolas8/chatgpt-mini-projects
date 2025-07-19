@@ -1,0 +1,26 @@
+🎴 ChatGPT Prompt Cards – Mini Project 1
+
+A collection of fun, useful, and quirky prompts to explore ChatGPT's creativity and intelligence.
+
+
+🎨 Prompt 1: Creative Writing
+> Write a short story where the moon falls in love with the ocean but they can never touch.
+
+
+🤖 Prompt 2: Explain Like I'm 5 (ELI5)
+> Explain recursion using SpongeBob and a mirror.
+
+
+📚 Prompt 3: Study Planner
+> Create a 3-hour study routine with 25 min sessions and 5 min breaks, customized for someone learning Python.
+
+
+🧙‍♂️ Prompt 4: Fantasy Prompt
+> You are a wizard in 3025 AD. Describe your day using old-school magic and futuristic tech.
+
+
+😂 Prompt 5: Fun Challenge
+> Make a joke using the words “banana,” “WiFi,” and “exam stress.”
+
+
+💡 Try using these with ChatGPT and have fun!
