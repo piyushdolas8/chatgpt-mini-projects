@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Playlist Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Mood Playlist Recommender</h1>
+    <select id="mood">
+      <option value="">Select your mood</option>
+      <option value="happy">😊 Happy</option>
+      <option value="sad">😢 Sad</option>
+      <option value="energetic">⚡ Energetic</option>
+      <option value="focused">🎯 Focused</option>
+      <option value="chill">🧘 Chill</option>
+    </select>
+    <button onclick="recommend()">Recommend Playlist</button>
+    <div id="recommendations"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
