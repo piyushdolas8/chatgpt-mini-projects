@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quote Generator</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Resume Generator</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="container">
-    <h1>🌟 Random Quote Generator</h1>
-    <p id="quote">Click the button to see a quote!</p>
-    <button onclick="generateQuote()">New Quote</button>
+    <h1>📝 AI Resume Generator</h1>
+    <form id="resumeForm">
+      <input type="text" placeholder="Full Name" id="name" required />
+      <input type="email" placeholder="Email Address" id="email" required />
+      <input type="text" placeholder="Education" id="education" required />
+      <input type="text" placeholder="Skills (comma separated)" id="skills" required />
+      <textarea placeholder="Experience / Projects" id="experience" required></textarea>
+      <button type="submit">Generate Resume</button>
+    </form>
+    <h2>📄 Generated Resume:</h2>
+    <pre id="output"></pre>
   </div>
   <script src="script.js"></script>
 </body>

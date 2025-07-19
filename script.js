@@ -1,12 +1,21 @@
-const quotes = [
-  "Believe you can and you're halfway there.",
-  "The only way to do great work is to love what you do.",
-  "Start where you are. Use what you have. Do what you can.",
-  "Success is not in what you have, but who you are.",
-  "Dream big and dare to fail."
-];
+document.getElementById("resumeForm").addEventListener("submit", function(e) {
+  e.preventDefault();
 
-function generateQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quote").innerText = quotes[randomIndex];
-}
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const education = document.getElementById("education").value;
+  const skills = document.getElementById("skills").value;
+  const experience = document.getElementById("experience").value;
+
+  const prompt = `Create a professional resume for the following person:
+
+Name: ${name}
+Email: ${email}
+Education: ${education}
+Skills: ${skills}
+Experience: ${experience}
+
+Format it as a clean and concise resume.`;
+
+  document.getElementById("output").innerText = prompt;
+});
