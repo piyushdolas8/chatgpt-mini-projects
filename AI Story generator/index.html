@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Story Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <h1>📖 AI Story Generator</h1>
+      <p>Type a character or topic and generate a magical story!</p>
+      <input type="text" id="prompt" placeholder="e.g., A brave fox in a jungle" />
+      <div class="buttons">
+        <button onclick="generateStory()">Generate</button>
+        <button onclick="speakStory()">🔊 Read Aloud</button>
+      </div>
+      <div id="story" class="story-box"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
