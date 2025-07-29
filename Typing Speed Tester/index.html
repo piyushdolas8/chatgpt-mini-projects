@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Tester</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="glow">Typing Speed Faster 💨</h1>
+
+    <div class="quote-box">
+      <p id="quote">Loading...</p>
+    </div>
+
+    <textarea id="input" placeholder="Start typing here..."></textarea>
+
+    <div class="stats">
+      <p><strong>⏱ Timer:</strong> <span id="timer">0.00</span> seconds</p>
+      <p id="result">🏁 Result will show here</p>
+      <p id="accuracy">🎯 Accuracy: --%</p>
+    </div>
+
+    <button id="restart">🔁 New Quote</button>
+  </div>
+
+  <audio id="successSound" src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
